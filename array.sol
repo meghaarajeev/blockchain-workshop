@@ -14,7 +14,7 @@ contract array{
 
     function sum() public returns(uint256){
         for(uint256 i=0; i<=count;i++){
-            s=s+arr[i]
+            s=s+arr[i];
         }
         return s;
     }  
